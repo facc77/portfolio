@@ -7,6 +7,8 @@ import meliImage from '../../assets/img/mercadolibre.png';
 import clinicaSanRemo from '../../assets/img/clinicaSanRemo.png';
 import hektoImage from '../../assets/img/hektoImage.png';
 import colorSharp2 from '../../assets/img/color-sharp2.png';
+import weatherApp from '../../assets/img/weather.png';
+import weatherAppLogo from '../../assets/img/weatherLogo.png';
 import 'animate.css';
 import Card from '../Card.js/Card';
 
@@ -42,6 +44,16 @@ const Projects = () => {
       logo: hektoLogo,
       demoUrl: 'https://heroku-ecommerce.netlify.app/',
       codeUrl: 'https://github.com/facc77/e-commerce-2022',
+    },
+    {
+      title: 'Weather app',
+      description: 'Clima online',
+      descriptionColor: '#fff',
+      backgroundColor: '#75e6da',
+      img: weatherApp,
+      logo: weatherAppLogo,
+      demoUrl: 'https://weather-api-ferrer.netlify.app/',
+      codeUrl: 'https://github.com/facc77/personal-weather-app',
     },
   ];
 

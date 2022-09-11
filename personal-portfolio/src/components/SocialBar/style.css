@@ -132,3 +132,36 @@
 .socialListIl:nth-child(3) i {
   background-color: #000;
 }
+
+@media only screen and (max-width: 700px) {
+  .footer-logo {
+    color: #fff;
+    padding: 0;
+    text-align: center;
+  }
+  .project-container {
+    justify-content: center !important;
+  }
+  .banner p {
+    color: #000 !important;
+    -webkit-text-stroke: 0.2px #fff;
+    -webkit-text-stroke-width: 0.2px;
+  }
+
+  .banner {
+    padding-top: 175px !important;
+  }
+
+  .buttonHolder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pixel-button {
+    text-align: left;
+  }
+  .newsletter-bx {
+    padding: 85px 50px;
+  }
+}

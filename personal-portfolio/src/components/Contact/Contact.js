@@ -25,6 +25,11 @@ const Contact = () => {
         position: toast.POSITION.BOTTOM_LEFT,
         autoClose: 3000,
       });
+      const inputs = document.querySelectorAll('#name, #email, #message');
+
+      inputs.forEach((input) => {
+        input.value = '';
+      });
     }, 3000);
   };
 
@@ -49,6 +54,7 @@ const Contact = () => {
                   </div>
                   <input
                     type='text'
+                    id='name'
                     name='from_name'
                     placeholder='Nombre'
                     required
@@ -60,6 +66,7 @@ const Contact = () => {
                   </div>
                   <input
                     type='email'
+                    id='email'
                     name='from_email'
                     placeholder='Email'
                     required
@@ -69,7 +76,12 @@ const Contact = () => {
                   <div className='input-group-addon contactIcons'>
                     <i className='fa-solid fa-envelope-open-text'></i>
                   </div>
-                  <textarea name='message' placeholder='Mensaje' required />
+                  <textarea
+                    name='message'
+                    id='message'
+                    placeholder='Mensaje'
+                    required
+                  />
                 </div>
                 <div className='buttonHolder'>
                   <button
