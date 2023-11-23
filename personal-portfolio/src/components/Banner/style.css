@@ -1,7 +1,8 @@
 .banner {
+  position: relative;
   margin-top: 0;
-  padding: 260px 0 110px 0;
-  background-image: url('../../assets/img/background5.jpg');
+  padding: 200px 0 110px 0;
+  background-image: url("../../assets/img/background5.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,28 +55,17 @@
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
+/* .banner .astronaut-image {
   animation: updown 3s linear infinite;
-}
+} */
 
 .developer-title {
   display: inline-block;
-  color: transparent;
+  color: #a629c2;
   font-size: 12em;
-  background-color: transparent;
-  /* -webkit-text-stroke: 1px #a629c2; */
-  text-stroke-width: 1px;
-  text-stroke-color: #a629c2;
-  background: url('../../assets/img/back.png');
-  /*  -webkit-background-clip: text;
-    text-shadow: -1px -1px 0 #a629c2, -1px 1px 0 #a629c2, 1px -1px 0 #a629c2,
-      1px 1px 0 #a629c2; */
-  background-clip: text;
-  background-position: 0 0;
-  animation: back 20s linear infinite;
 }
 
-@keyframes back {
+/* @keyframes back {
   100% {
     background-position: 2000px 0;
   }
@@ -95,7 +85,34 @@
   100% {
     transform: translateY(-20px);
   }
-}
+} */
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+.slidingTextCont {
+  position: absolute;
+  font-size: 30vh;
+  bottom: 20px;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.151);
+  cursor: default;
+  width: 50%;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.scrollImgCont {
+  display: flex;
+  justify-content: center;
+}
+
+.scrollImg {
+  height: 30px;
+  width: auto;
+}
+
+.topSection {
+  position: relative;
+  z-index: 100;
 }
