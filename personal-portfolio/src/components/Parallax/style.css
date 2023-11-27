@@ -9,12 +9,11 @@
 }
 
 .parallax h1 {
-  font-size: 100px;
+  font-size: 50px;
+  z-index: 2;
 }
 
-.parallax .mountains,
-.parallax .stars,
-.parallax .planets {
+.parallax div {
   background-size: cover;
   background-position: bottom;
   width: 100%;
@@ -22,17 +21,31 @@
   position: absolute;
 }
 
-.parallax .mountains {
-  background-image: url("../../assets/img/mountains.png");
+.parallax .mountains1 {
+  background-image: url("../../assets/img/mountain6.webp");
+  z-index: 6;
+}
+
+.parallax .mountains4 {
+  background-image: url("../../assets/img/mountain3.webp");
+  z-index: 15;
+}
+
+.parallax .mountains2 {
+  background-image: url("../../assets/img/mountain4.webp");
+  z-index: 8;
+}
+.parallax .mountains3 {
+  background-image: url("../../assets/img/mountain5.webp");
+  z-index: 10;
+}
+
+.parallax .moon {
+  background-image: url("../../assets/img/moon.webp");
   z-index: 5;
 }
 
 .parallax .stars {
-  background-image: url("../../assets/img/stars.png");
+  background-image: url("../../assets/img/stars.webp");
   z-index: 4;
-}
-
-.parallax .planets {
-  background-image: url("../../assets/img/planets.png");
-  z-index: 3;
 }

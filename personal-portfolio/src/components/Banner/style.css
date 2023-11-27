@@ -2,10 +2,11 @@
   position: relative;
   margin-top: 0;
   padding: 200px 0 110px 0;
-  background-image: url("../../assets/img/background5.jpg");
+  background-image: url("../../assets/img/stars.webp");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 .banner .tagline {
   font-weight: 700;
@@ -25,7 +26,6 @@
   font-size: 65px;
   font-weight: 700;
   letter-spacing: 0.8px;
-  /* line-height: 1; */
   margin-bottom: 20px;
   display: block;
 }
@@ -55,9 +55,6 @@
 .banner button:hover svg {
   margin-left: 25px;
 }
-/* .banner .astronaut-image {
-  animation: updown 3s linear infinite;
-} */
 
 .developer-title {
   display: inline-block;
@@ -65,39 +62,14 @@
   font-size: 12em;
 }
 
-/* @keyframes back {
-  100% {
-    background-position: 2000px 0;
-  }
-}
-
-.astronaut-image {
-  border-radius: 20%;
-}
-
-@keyframes updown {
-  0% {
-    transform: translateY(-20px);
-  }
-  50% {
-    transform: translateY(20px);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
-} */
-.txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
-}
-
 .slidingTextCont {
   position: absolute;
-  font-size: 30vh;
+  font-size: 15vh;
   bottom: 20px;
   white-space: nowrap;
   color: rgba(255, 255, 255, 0.151);
   cursor: default;
-  width: 50%;
+  width: 30%;
   font-weight: bold;
   z-index: 10;
 }
@@ -115,4 +87,10 @@
 .topSection {
   position: relative;
   z-index: 100;
+}
+
+@media only screen and (max-width: 700px) {
+  .slidingTextCont {
+    font-size: 5vh;
+  }
 }
