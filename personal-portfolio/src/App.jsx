@@ -11,16 +11,19 @@ import { Parallax } from "./components/Parallax";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Banner />
-      <Parallax />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
-      <ToastContainer />
-    </div>
+    <>
+      <div className="App">
+        <NavBar />
+        <Banner />
+        <Parallax />
+        <Projects />
+        <Skills />
+        <Contact />
+        <Footer />
+        <ToastContainer />
+      </div>
+    </>
+
   );
 }
 

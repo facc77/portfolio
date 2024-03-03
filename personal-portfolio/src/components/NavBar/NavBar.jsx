@@ -95,7 +95,7 @@ const NavBar = () => {
               onClick={() => onUpdateActiveLink('contact')}
             >
               <i className='fa-solid fa-comments navIcons'></i>
-              <span>Contacto</span>
+              <span>Contact</span>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

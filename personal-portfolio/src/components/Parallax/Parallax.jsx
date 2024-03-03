@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { motion, useScroll, useTransform, useInView } from "framer-motion";
+import { motion, useScroll, useTransform, useInView, easeInOut } from "framer-motion";
 import "./style.css";
 
 const Parallax = () => {
@@ -15,7 +15,9 @@ const Parallax = () => {
   const text = "Front End";
 
   const YPos = (percentage) =>
-    useTransform(scrollYProgress, [0, 1], ["0%", percentage]);
+    useTransform(scrollYProgress, [0, 1], ["0%", percentage], {
+      easing: easeInOut,
+    });
 
   return (
     <div className="parallax" ref={ref}>

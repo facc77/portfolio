@@ -12,7 +12,7 @@ import heroLogo from "../../assets/img/heroLogo.webp";
 export const projects = [
   {
     title: "Superhero App",
-    description: "Crea tu equipo de héroes!",
+    description: "Create your team of heroes!",
     descriptionColor: "#fff",
     backgroundColor: "rgb(0, 68, 255)",
     img: heroImage,
@@ -22,7 +22,7 @@ export const projects = [
   },
   {
     title: "Weather app",
-    description: "Clima online",
+    description: "Online weather",
     descriptionColor: "#fff",
     backgroundColor: "#75e6da",
     img: weatherApp,
@@ -32,7 +32,7 @@ export const projects = [
   },
   {
     title: "Meli Challenge",
-    description: "Detalle de un producto",
+    description: "Product detail",
     descriptionColor: "#fff",
     backgroundColor: "#ffe600",
     img: meliImage,
@@ -43,7 +43,7 @@ export const projects = [
   },
   {
     title: "Clínica San Remo",
-    description: "Clínica para sacar turnos online",
+    description: "Schedule appointments online",
     descriptionColor: "#000",
     backgroundColor: "#fff",
     img: clinicaSanRemo,
@@ -53,7 +53,7 @@ export const projects = [
   },
   {
     title: "Hekto e-commerce",
-    description: "Tienda online",
+    description: "online shop",
     descriptionColor: "#d3d3d3",
     backgroundColor: "rgb(25, 118, 210)",
     img: hektoImage,

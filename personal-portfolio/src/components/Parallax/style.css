@@ -22,21 +22,21 @@
 }
 
 .parallax .mountains1 {
-  background-image: url("../../assets/img/mountain6.webp");
+  background-image: url("../../assets/img/mountain4.webp");
   z-index: 6;
 }
 
 .parallax .mountains4 {
-  background-image: url("../../assets/img/mountain3.webp");
+  background-image: url("../../assets/img/mountain1.webp");
   z-index: 15;
 }
 
 .parallax .mountains2 {
-  background-image: url("../../assets/img/mountain4.webp");
+  background-image: url("../../assets/img/mountain3.webp");
   z-index: 8;
 }
 .parallax .mountains3 {
-  background-image: url("../../assets/img/mountain5.webp");
+  background-image: url("../../assets/img/mountain2.webp");
   z-index: 10;
 }
 

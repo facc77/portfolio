@@ -30,8 +30,7 @@ const Projects = () => {
             <div>
               <h2>Projects</h2>
               <p>
-                Proyectos realizados con página deployada y codigo
-                correspondiente!
+                Projects completed with deployed page and corresponding code!
               </p>
               <motion.div
                 variants={variants}

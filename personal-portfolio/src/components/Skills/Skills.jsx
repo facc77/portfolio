@@ -11,7 +11,7 @@ const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>Tecnologías con las que trabajé y me encantan</p>
+              <p>Technologies I have worked with and love</p>
               <div className="d-flex flex-wrap w-100 justify-content-around">
                 {techs.map(({ iconClass, cardClass }) => {
                   return (

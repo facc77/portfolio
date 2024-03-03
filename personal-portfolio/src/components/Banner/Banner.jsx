@@ -31,9 +31,8 @@ const Banner = () => {
                 className="mt-5 bannerDescriptionColor"
                 variants={textVariant("l")}
               >
-                Soy un desarrollador apasionado que disfruta ser desafiado y
-                participar en proyectos que requieren que trabaje fuera de mi
-                zona de comfort para crecer más y más cada día.
+                I am a passionate developer who enjoys being challenged and participating in
+                projects that require me to work outside my comfort zone to grow more and more every day.
               </motion.p>
             </motion.div>
             <motion.div

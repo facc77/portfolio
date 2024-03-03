@@ -3,7 +3,7 @@ import "./style.css";
 export const SocialBar = () => {
   return (
     <div className="d-flex justify-content-center newsletter-bx wow slideInUp flex-column align-items-center mt-5">
-      <h3 className="mb-5">Redes sociales</h3>
+      <h3 className="mb-5">Social media</h3>
       <ul className="socialListUl">
         <li className="socialListIl">
           <a href="https://www.linkedin.com/in/gonzaloferrer0/">

@@ -14,6 +14,11 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     setLoading(true);
+    console.log(
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_PUBLIC_KEY,
+      process.env.REACT_APP_TEMPLATE_ID
+    );
     emailjs.sendForm(
       process.env.REACT_APP_SERVICE_ID,
       process.env.REACT_APP_TEMPLATE_ID,
@@ -52,7 +57,7 @@ const Contact = () => {
           </Col>
           <Col size={12} md={6}>
             <div>
-              <h2>Contactame!</h2>
+              <h2>Contact me!</h2>
 
               <form onSubmit={sendEmail}>
                 <div className="input-group">
@@ -63,7 +68,7 @@ const Contact = () => {
                     type="text"
                     id="name"
                     name="from_name"
-                    placeholder="Nombre"
+                    placeholder="Name"
                     required
                   />
                 </div>
@@ -86,7 +91,7 @@ const Contact = () => {
                   <textarea
                     name="message"
                     id="message"
-                    placeholder="Mensaje"
+                    placeholder="Message"
                     required
                   />
                 </div>
@@ -107,10 +112,10 @@ const Contact = () => {
                           role="status"
                           aria-hidden="true"
                         ></span>
-                        Enviar
+                        Send
                       </>
                     ) : (
-                      "Enviar"
+                      "Send"
                     )}
                   </button>
                 </div>
